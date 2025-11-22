@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import Layout from './components/Layout.vue'
+import { useAnalytics } from './composables/useAnalytics'
+
+// Инициализация аналитики для сбора данных о пользователе
+useAnalytics()
 </script>
 
 <template>
